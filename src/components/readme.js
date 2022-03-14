@@ -12,7 +12,10 @@ export default function ReadMe({user, repoName, defaultBranch}) {
       setReadme(res.data)
     })
   }
-  getReadMe()
+
+  if (repoName) {
+    getReadMe()
+  }
 
   return (
     <>

@@ -16,3 +16,11 @@ code {
   display: flex;
   gap: 50px;
 }
+
+aside li {
+  cursor: pointer;
+}
+
+aside li:hover {
+  text-decoration: underline;
+}
